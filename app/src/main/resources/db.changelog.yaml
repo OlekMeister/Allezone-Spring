@@ -1,0 +1,34 @@
+databaseChangeLog:
+  - changeSet:
+      id: 20201012_init
+      author: Paweł Janowiak
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/20201012_init.sql
+  - changeSet:
+      id: 20210105_users
+      author: Aleksander Guzik
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/20210105_users.sql
+
+  - changeSet:
+      id: 20210113_allezone
+      author: Aleksander Guzik
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/20210113_allezone.sql
+  - changeSet:
+      id: 20210113_addView
+      author: Aleksander Guzik
+      sqlFile:
+        relativeToChangelogFile: true
+        stripComments: true
+        splitStatements: false
+        path: db.changelog/20210113_addView.sql

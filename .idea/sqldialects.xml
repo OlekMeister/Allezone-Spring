@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/app/src/main/resources/db.changelog/20201012_init.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/app/src/main/resources/db.changelog/20210105_users.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/app/src/main/resources/db.changelog/20210113_addView.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/app/src/main/resources/db.changelog/20210113_allezone.sql" dialect="GenericSQL" />
+  </component>
+</project>
